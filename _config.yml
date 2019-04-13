@@ -9,7 +9,7 @@ jkan_theme: Default
 
 # Authentication
 github_client_id: 3067d5ce2170298af61b
-gatekeeper_host: https://civic-tech-application.herokuapp.com
+gatekeeper_host: https://afternoon-lowlands-69699.herokuapp.com
 
 # Dataset schema
 schema: default
