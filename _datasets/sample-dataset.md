@@ -15,5 +15,5 @@ resources:
     format: api
 license: 'https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/'
 category:
-  - Education
+  - Uncategorized
 ---
