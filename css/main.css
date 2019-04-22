@@ -6,7 +6,19 @@ dataset {
   display: block;
   border-bottom: 1px #d6d6d6 solid;
   padding-bottom: 20px;
+  text-align: justify;
 }
+
+h1, h2, h3, h4, h5 {
+  font-weight: lighter;
+}
+
+p {
+  font-weight: lighter;
+}
+
+h6 {
+  font-size: 2em; }
 
 .list-group-item-truncate {
   display: inline-block;
@@ -32,6 +44,7 @@ dataset {
 .add-dataset-btn {
   margin-top: 15px;
 }
+
 
 /* Hidden from guests */
 .user-issue,
@@ -98,3 +111,5 @@ dataset {
 .theme-gallery .panel-primary {
   border-width: 5px;
 }
+
+/* Custom additions */
