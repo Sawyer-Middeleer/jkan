@@ -19,6 +19,4 @@ resources:
 license: 'http://www.cityofchicago.org/'
 category:
   - Chicago 311
-maintainer: Jonathan Levy
-maintainer_email: .
 ---
