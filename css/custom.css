@@ -1,0 +1,204 @@
+.row {
+  box-sizing: border-box;
+}
+
+.container{
+  color: #1a1a1a;
+}
+
+* {
+  font-family: sans-serif;
+}
+
+h1, h2, h3 {
+  font-weight: medium;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+h4, h5, h6, p {
+  font-family: sans-serif;
+}
+
+h6 {
+  font-size: 2em;
+}
+
+p {
+  margin-top: 0em;
+}
+
+a {
+  font-family: sans-serif;
+  color: #800000;
+  font-weight: 'bold';
+  text-align: left;
+  margin: 0;
+}
+
+*::selection {
+  background-color: #ffb3b3;
+}
+
+a:hover {
+  color: #cc0000;
+}
+
+.btn {
+  border-width: medium;
+  border-style: solid;
+  border-color: #e6e6e6;
+  background-color: #800000;
+  color: #e6e6e6;
+  font-weight: lighter;
+  font-family: sans-serif;
+  font-size: 1em;
+}
+
+  .btn:hover {
+    background-color: #cc0000;
+    color: #e6e6e6;
+    font-weight: lighter;
+  }
+
+/* Navigation bar -- based on https://www.open-austin.org/*/
+.navbar {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background-color: #800000;
+}
+
+  .navbar a {
+    text-align: center;
+    margin: 1;
+    color: #fff;
+    text-decoration: none;
+  }
+
+    .navbar a:hover {
+      border-bottom: solid 1px #e6e6e6;
+    }
+
+  .navbar .title {
+    margin-top: 0em;
+    border-bottom: none;
+  }
+
+  .navbar .title-wrapper h1 {
+    font-weight: bold;
+    float: left;
+    color: #e6e6e6;
+    font-size: 3em;
+  }
+
+  .navbar .title-wrapper .login {
+    float: right;
+  }
+
+  .navbar .nav-wrapper {
+    margin-left: 1em;
+    float: left;
+    width: 80%;
+    margin-bottom: 1em;
+  }
+
+  .navbar ul.subnav {
+    text-align: left;
+    float: left;
+    margin: 0;
+    padding: 0;
+  }
+
+    .navbar ul.subnav li {
+      float: left;
+    }
+
+      .navbar ul.subnav li:first-child {
+        margin-left: 0;
+      }
+
+  .navbar #navlink {
+    float: left;
+    color: #e6e6e6;
+  }
+
+  .navbar .login {
+    float: right;
+  }
+
+  .navbar .nav-active {
+  /*  font-weight: bold;*/
+  }
+
+  .navbar .navbar {
+    border: none;
+  }
+
+  .navbar .navbar-brand {
+    padding-left: 0;
+    margin-left: 0;
+    color: #e6e6e6;
+    text-align: center;
+  }
+
+  .navbar .navbar-brand:hover{
+    color: #e6e6e6;
+  }
+
+  .navbar .navbar-nav {
+    padding-left: 0;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .navbar .navbar-nav:hover{
+    color: #e6e6e6;
+  }
+
+  .navbar li {
+    float: left;
+    margin-left: 0.5em;
+    list-style-type: none;
+    color: #1a1a1a;
+    background-color: #800000;
+  }
+
+  .navbar a.loginbutton {
+    color: #e6e6e6;
+    padding: 0.15em 1em;
+    border-radius: 2px;
+    text-decoration: none;
+    margin-top: 0.25em;
+    border: none;
+    float: right;
+  }
+
+    .navbar a.loginbutton i {
+      float: none;
+    }
+
+  .navbar .navbar-right li {
+    float: right;
+  }
+
+  .navbar .nav > li > a {
+    border: solid 2px #e6e6e6;
+    color: #e6e6e6;
+    border-radius: 2px;
+  }
+
+    .navbar .nav > li > a:hover {
+      background-color: #e6e6e6;
+      color: #800000;
+    }
+
+/* homepage images */
+.homepage-categories {
+  float: left;
+}
+
+.container .col-sm-auto {
+  float: right;
+}

@@ -13,6 +13,7 @@ layout: default
 
 <div data-component="view-switcher">
   <div class="row" data-component="dataset-display" data-hook="view" data-view="display" typeof="dcat:Dataset" resource="{{ page.url }}">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/custom.css">
     {% if organization %}
       <div class="col-sm-3" property="dct:publisher" resource="{{ organization_url }}">
         <div class="panel panel-default">

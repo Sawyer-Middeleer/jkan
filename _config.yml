@@ -1,6 +1,6 @@
-title: Sawyer's Civic Tech App
-greeting: Welcome to Sawyer's Civic Tech App
-description: Built on top of JKAN and powered by Jekyll.
+title: Sawyer's Data Portal
+greeting: Sawyer's Data Portal
+description: A JKAN site, powered by Jekyll.
 baseurl: /jkan
 logo: /img/jkan.png
 
