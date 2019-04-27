@@ -195,6 +195,16 @@ a:hover {
       color: #800000;
     }
 
+    .navbar .nav > li.active > a {
+      background-color: #e6e6e6;
+      color: #800000;
+    }
+
+    .navbar .nav > li.active > a:hover {
+      background-color: #e6e6e6;
+      color: #800000;
+    }
+
 /* home page */
 section.container {
   background-color: none;
@@ -215,15 +225,7 @@ section.container {
 /* datasets lists */
 
 .row .list-group-item {
-  background-color: #e6e6e6;
-  color: #800000;
-  border-width: thin;
-  border-style: solid;
-  border-color: #800000;
-}
-
-.row .list-group-item:focus {
-  background-color: #e6e6e6;
+  background-color: none;
   color: #800000;
   border-width: thin;
   border-style: solid;
@@ -231,6 +233,21 @@ section.container {
 }
 
 .row .badge {
+  background-color: #800000;
+  color: #e6e6e6;
+}
+
+.row .active {
+  background-color: #800000;
+  color: #e6e6e6;
+}
+
+.row .active .badge {
+  background-color: #e6e6e6;
+  color: #800000;
+}
+
+.row .active:hover {
   background-color: #800000;
   color: #e6e6e6;
 }
