@@ -59,8 +59,13 @@ a:hover {
 
   .btn:hover {
     background-color: #cc0000;
+    border-width: medium;
+    border-style: solid;
     color: #e6e6e6;
+    border-color: #e6e6e6;
     font-weight: lighter;
+    font-family: sans-serif;
+    font-size: 1em;
   }
 
 /* Navigation bar -- based on https://www.open-austin.org/*/
@@ -73,13 +78,16 @@ a:hover {
   .navbar a {
     text-align: center;
     margin: 1;
-    color: #fff;
+    color: #e6e6e6;
     text-decoration: none;
   }
 
-    .navbar a:hover {
-      border-bottom: solid 1px #e6e6e6;
-    }
+  .navbar a:hover {
+    text-align: center;
+    margin: 1;
+    color: #ffb3b3;
+    text-decoration: none;
+  }
 
   .navbar .title {
     margin-top: 0em;
@@ -128,10 +136,6 @@ a:hover {
     float: right;
   }
 
-  .navbar .nav-active {
-  /*  font-weight: bold;*/
-  }
-
   .navbar .navbar {
     border: none;
   }
@@ -143,7 +147,8 @@ a:hover {
     text-align: center;
   }
 
-  .navbar .navbar-brand:hover{
+  .navbar .navbar-brand:hover {
+    border-bottom: solid 1px #e6e6e6;
     color: #e6e6e6;
   }
 
@@ -153,15 +158,11 @@ a:hover {
     text-align: center;
   }
 
-  .navbar .navbar-nav:hover{
-    color: #e6e6e6;
-  }
-
   .navbar li {
     float: left;
     margin-left: 0.5em;
     list-style-type: none;
-    color: #1a1a1a;
+    color: #e6e6e6;
     background-color: #800000;
   }
 
@@ -194,11 +195,42 @@ a:hover {
       color: #800000;
     }
 
-/* homepage images */
+/* home page */
+section.container {
+  background-color: none;
+  width: 80%;
+}
+
+.jumbotron {
+  background-color: #e6e6e6;
+  border-width: medium;
+  border-style: solid;
+  border-color: #800000;
+}
+
 .homepage-categories {
   float: left;
 }
 
-.container .col-sm-auto {
-  float: right;
+/* datasets lists */
+
+.row .list-group-item {
+  background-color: #e6e6e6;
+  color: #800000;
+  border-width: thin;
+  border-style: solid;
+  border-color: #800000;
+}
+
+.row .list-group-item:focus {
+  background-color: #e6e6e6;
+  color: #800000;
+  border-width: thin;
+  border-style: solid;
+  border-color: #800000;
+}
+
+.row .badge {
+  background-color: #800000;
+  color: #e6e6e6;
 }
