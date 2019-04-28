@@ -12,5 +12,5 @@ resources:
     format: api
 license: 'http://www.cityofchicago.org/'
 category:
-  - Transportation
+  - Chicago
 ---

@@ -10,7 +10,7 @@
   font-family: sans-serif;
 }
 
-h1, h2, h3 {
+h1 {
   font-weight: medium;
 }
 
@@ -18,12 +18,12 @@ h2 {
   font-weight: bold;
 }
 
-h4, h5, h6, p {
-  font-family: sans-serif;
+h3 {
+  font-weight: bold;
 }
 
-h6 {
-  font-size: 2em;
+h4, h5, h6, p {
+  font-family: sans-serif;
 }
 
 p {
@@ -205,16 +205,15 @@ a:hover {
       color: #800000;
     }
 
-.collapse .dropdown .open .dropdown-menu {
-  background-color: #e6e6e6;
-  color: #800000;
-}
-
 /* home page */
+
+
 section.container {
   background-color: none;
+  border-style: none;
   width: 80%;
 }
+
 
 .jumbotron {
   background-color: #e6e6e6;
@@ -225,6 +224,27 @@ section.container {
 
 .homepage-categories {
   float: left;
+  margin: auto;
+}
+
+.alert {
+  width: 80%;
+  margin: auto;
+  clear: both;
+  background-color: #fff;
+  border-width: medium;
+  border-style: solid;
+  border-color: #800000;
+}
+
+.alert .row {
+  display: flex;
+  margin: auto;
+}
+
+.alert .column {
+  flex: 33.33%;
+  margin: auto;
 }
 
 /* datasets lists */

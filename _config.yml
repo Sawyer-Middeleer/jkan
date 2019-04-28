@@ -1,6 +1,6 @@
 title: Sawyer's Data Portal
-greeting: Sawyer's Data Portal
-description: A JKAN site, powered by Jekyll.
+greeting: Sawyer's 311 Data Portal
+description: Aggregated municipal 311 data from around the country.
 baseurl: /jkan
 logo: /img/jkan.png
 

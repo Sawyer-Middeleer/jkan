@@ -10,7 +10,7 @@ layout: default
   <p><a class="btn btn-primary btn-lg" href="{{ site.baseurl }}/datasets" role="button">Browse All Data</a></p>
 </div>
 
-<h3>Browse by Category</h3>
+<h3>Browse by City</h3>
 
 <div class="homepage-categories">
 {% for category in site.data.categories %}
@@ -24,4 +24,23 @@ layout: default
     </a>
   {% endif %}
 {% endfor %}
+</div>
+
+<div class="alert alert-info" role="alert">
+  <h6>Thanks to:</h6>
+  <div class="row">
+    <div class="column">
+      <img src="https://cdn.worldvectorlogo.com/logos/jekyll.svg" style="max-width: 200px; max-height: 120px"
+         alt="Jekyll logo" />
+    </div>
+    <div class="column">
+      <img src="https://demo.jkan.io/img/jkan.png" style="max-width: 200px; max-height: 120px"
+         alt="JKAN logo" />
+    </div>
+    <div class="column">
+      <img src="https://harris.uchicago.edu/files/2018-05/harris_public_policy_logo.png" style="max-width: 200px; max-height: 120px"
+         alt="UChicago Harris logo" />
+    </div>
+  </div>
+
 </div>

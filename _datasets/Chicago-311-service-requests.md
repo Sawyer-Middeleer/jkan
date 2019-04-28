@@ -1,6 +1,6 @@
 ---
 schema: default
-title: 311 Service Requests
+title: Chicago - 311 Service Requests
 organization: Chicago 311
 notes: 311 Service Requests received by the City of Chicago since the launch of the new 311 system on 12/18/2018
 resources:
@@ -12,5 +12,5 @@ resources:
     format: api
 license: 'http://www.cityofchicago.org/'
 category:
-  - Chicago 311
+  - Chicago
 ---

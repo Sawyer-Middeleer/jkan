@@ -1,8 +1,24 @@
-- name: Chicago 311
-  logo: /img/categories/311-service.svg
-  logo_credit: Oksana Latysheva from the Noun Project
+- name: Chicago
+  logo: /img/categories/chicago.png
+  logo_credit: City of Chicago
   featured: true
-- name: Transportation
-  logo: /img/categories/transportation.svg
-  logo_credit: Dmitry Baranovskiy from the Noun Project
+- name: Boston
+  logo: /img/categories/boston.png
+  logo_credit: City of Boston
+  featured: true
+- name: New York City
+  logo: /img/categories/nyc.png
+  logo_credit: City of New York
+  featured: true
+- name: Philadelphia
+  logo: /img/categories/philadelphia.png
+  logo_credit: City of Philadelphia
+  featured: true
+- name: Los Angeles
+  logo: /img/categories/la.png
+  logo_credit: City of Los Angeles
+  featured: true
+- name: Miami
+  logo: /img/categories/miami.svg
+  logo_credit: City of Miami
   featured: true

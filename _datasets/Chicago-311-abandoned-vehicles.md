@@ -1,6 +1,6 @@
 ---
 schema: default
-title: 311 Service Requests - Abandoned Vehicles - No Duplicates
+title: Chicago - 311 Service Requests - Abandoned Vehicles
 organization: Chicago 311
 notes: This filtered view shows only those service requests from the underlying dataset that are not marked as duplicates.
 resources:
@@ -15,5 +15,5 @@ resources:
     format: api
 license: 'http://www.cityofchicago.org/'
 category:
-  - Chicago 311
+  - Chicago
 ---
