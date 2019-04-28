@@ -1,0 +1,13 @@
+---
+schema: default
+title: LA - 311 Service and Information Requests 2015
+organization: Los Angeles 311
+notes: Service request data from MyLA311 for 2015. This includes requests submitted via 311, call centers, email, mobile apps, website, and other sources.
+resources:
+  - name: 311 Service Requests 2015 CSV
+    url: "https://data.lacity.org/api/views/ms7h-a45h/rows.csv?accessType=DOWNLOAD&bom=true&format=true"
+    format: csv
+license: 'City of Los Angeles'
+category:
+  - Los Angeles
+---
