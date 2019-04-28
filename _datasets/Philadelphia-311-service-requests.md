@@ -1,6 +1,6 @@
 ---
 schema: default
-title: Philly - 311 Service and Information Requests
+title: Philadelphia - 311 Service and Information Requests
 organization: Philadelphia 311
 notes: This represents all service and information requests since December 8th, 2014 submitted to Philly311.
 resources:

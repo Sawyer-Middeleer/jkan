@@ -1,6 +1,6 @@
 ---
 schema: default
-title: Philly - 311 License and Inspection Service Requests
+title: Philadelphia - 311 License and Inspection Service Requests
 organization: Philadelphia 311
 notes: Service requests that were entered via 311 or by an individual in the department
 resources:
