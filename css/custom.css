@@ -205,6 +205,11 @@ a:hover {
       color: #800000;
     }
 
+.navbar .dropdown-menu {
+  background-color: #e6e6e6;
+  color: #800000;
+}
+
 /* home page */
 section.container {
   background-color: none;
