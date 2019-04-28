@@ -205,7 +205,7 @@ a:hover {
       color: #800000;
     }
 
-.navbar .dropdown-menu {
+.collapse .dropdown .open .dropdown-menu {
   background-color: #e6e6e6;
   color: #800000;
 }
