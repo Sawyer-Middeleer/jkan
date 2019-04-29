@@ -1,3 +1,25 @@
+/*
+This custom.css file is the individual work of Sawyer Middeleer, inspired and, in some cases,
+adapted from the work done by the folks on the Estonian Open Government Data Portal (https://opendata.riik.ee/en/)
+and the Open Austin project (https://www.open-austin.org/).
+
+I used css styling primarily to improve the user experience of my site, and secondarily to create a visual identity.
+
+I found that the base styling added extra clutter, which made it a little more difficult to find things than I thought it should be.
+Since this data portal is meant to be incredibly simple, I wanted the aesthetics to facilitate user navigation as much as possible
+Hover, active and focus styling hopefully improve legibility and responsiveness to user actions.
+
+A simple, cohesive color scheme on top of the lumina theme makes the site more visually appealing than a basic gray and blue.
+The maroon and gray are color choices that give the site a little UChicago pride and direct attention to the correct places.
+
+In addition to css work here, there are small instances of html additions on other pages to add elements where
+I thought they would be beneficial. For example, I added a box on the index.html page and changed how categories are organized.
+I also added links to my twitter and github on the navigation bar for some added transparency into who created the website,
+just in case this app ever makes it out there into the public.
+*/
+
+
+/* Universal text styling */
 .row {
   box-sizing: border-box;
 }
@@ -38,6 +60,10 @@ a {
   margin: 0;
 }
 
+/* end universal text styling */
+
+/* begin universal selection and hover styling */
+
 *::selection {
   background-color: #ffb3b3;
 }
@@ -45,6 +71,10 @@ a {
 a:hover {
   color: #cc0000;
 }
+
+/* end universal selection and hover styling */
+
+/* "browse all data" button */
 
 .btn {
   border-width: medium;
@@ -67,8 +97,10 @@ a:hover {
     font-family: sans-serif;
     font-size: 1em;
   }
+/* "end browse all data" button */
 
-/* Navigation bar -- based on https://www.open-austin.org/*/
+
+/* Navigation bar -- adapted from https://www.open-austin.org/*/
 .navbar {
   padding-top: 1em;
   padding-bottom: 1em;
@@ -120,17 +152,12 @@ a:hover {
   }
 
     .navbar ul.subnav li {
-      float: left;
+      float: none;
     }
 
       .navbar ul.subnav li:first-child {
         margin-left: 0;
       }
-
-  .navbar #navlink {
-    float: left;
-    color: #e6e6e6;
-  }
 
   .navbar .login {
     float: right;
@@ -204,6 +231,9 @@ a:hover {
       background-color: #e6e6e6;
       color: #800000;
     }
+
+/* end navbar */
+
 
 /* home page */
 
