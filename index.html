@@ -26,6 +26,47 @@ layout: default
 {% endfor %}
 </div>
 
+<button class="collapsible">Click to expand for an intro to my project</button>
+<div class="content">
+  <p>This web app has gone through a couple iterations since its inception.</p>
+  <p>
+    At first, all of the data was Chicago-based and spanned a number of categories, including transportation, 311 and education. However, it was unclear how this would be any more useful than
+    the City of Chicago's existing data portal.
+  </p>
+  <p>  
+    As someone who frequently uses open data for research, I have always found it cumbersome to collect data from multiple cities' data portals.
+    This seemed like a natural opportunity to aggregate data from several cities that one might want to analyze together in one place.
+  </p>
+  <p>
+    Once I started bringing in other cities' data, I realized that I would need to change how I organized the data on the website. To fix this problem, I recategorized datasets by city and
+    focused the range of data I provided to only 311 service data. The reason for this decision was threefold:
+  </p>
+    <ol>
+      <li>Once I categorize data by city, it became difficult to add subcategories.</li>
+      <li>Focusing on one data category now would make it easier to build on some kind of additional functionality later.</li>
+      <li>311 service is a particularly interesting category of data to compare across cities.</li>
+    </ol>
+  <p>In the future, I hope to use the data that I've aggregated to provide some insight into what makes 311 services most effective.</p>
+</div>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+
 <div class="alert alert-info" role="alert">
   <h6>Thanks to:</h6>
   <div class="row">
