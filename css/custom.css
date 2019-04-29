@@ -287,7 +287,7 @@ section.container {
   background-color: #cc0000;
 }
 
-.active {
+.collapsible.active {
   background-color: #800000;
 }
 
