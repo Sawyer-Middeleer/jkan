@@ -159,13 +159,35 @@ a:hover {
         margin-left: 0;
       }
 
+
+/* login button */
+
   .navbar .login {
     float: right;
+  }
+
+
+/* login button */
+
+  .navbar a.loginbutton i {
+    float: none;
   }
 
   .navbar .navbar {
     border: none;
   }
+
+    .navbar a.loginbutton {
+      color: #e6e6e6;
+      padding: 0.15em 1em;
+      border-radius: 2px;
+      text-decoration: none;
+      margin-top: 0.25em;
+      border: none;
+      float: right;
+    }
+
+/* homepage button */
 
   .navbar .navbar-brand {
     padding-left: 0;
@@ -179,6 +201,9 @@ a:hover {
     color: #e6e6e6;
   }
 
+/* end homepage button */
+
+/* datasets and organizations buttons */
   .navbar .navbar-nav {
     padding-left: 0;
     margin-left: 0;
@@ -192,20 +217,6 @@ a:hover {
     color: #e6e6e6;
     background-color: #800000;
   }
-
-  .navbar a.loginbutton {
-    color: #e6e6e6;
-    padding: 0.15em 1em;
-    border-radius: 2px;
-    text-decoration: none;
-    margin-top: 0.25em;
-    border: none;
-    float: right;
-  }
-
-    .navbar a.loginbutton i {
-      float: none;
-    }
 
   .navbar .navbar-right li {
     float: right;
@@ -231,19 +242,18 @@ a:hover {
       background-color: #e6e6e6;
       color: #800000;
     }
+/* end datasets and organizations buttons */
 
-/* end navbar */
+/* end navigation bar */
 
 
 /* home page */
-
 
 section.container {
   background-color: none;
   border-style: none;
   width: 80%;
 }
-
 
 .jumbotron {
   background-color: #e6e6e6;
@@ -277,6 +287,8 @@ section.container {
   margin: auto;
 }
 
+/* end homepage */
+
 /* datasets lists */
 
 .row .list-group-item {
@@ -306,3 +318,5 @@ section.container {
   background-color: #800000;
   color: #e6e6e6;
 }
+
+/* end datasets lists */
